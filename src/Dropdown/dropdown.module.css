@@ -1,0 +1,23 @@
+.container {
+  flex: 1 1 0%;
+  width: 100%;
+}
+
+.listContainer {
+  position: absolute;
+  z-index: 2;
+  border: 1px solid #999;
+}
+
+.list {
+  height: 100%;
+  width: 100%;
+}
+.dropdownFirst {
+  width: 140px;
+  top: 50px;
+  left: -55px;
+  border-radius: 3px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}

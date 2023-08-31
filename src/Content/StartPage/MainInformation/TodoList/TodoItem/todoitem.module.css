@@ -1,0 +1,72 @@
+.todoItem {
+  position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    color: #333;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    list-style-type: none;
+    border-bottom: 1px solid #E4E4E4;
+    align-items: center;
+}
+.numberOfTomatoesDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #C4C4C4;
+  border-radius: 12.5px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: #333;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inputEditContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.inputEdit {
+  width: 100%;
+  padding: 10px;
+  background-color: #F4F4F4;
+  border: none;
+  font-size: 16px;
+  line-height: 17px;
+  outline: none;
+}
+.btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 17px;
+  box-sizing: border-box;
+  transition: all .3s ease-in-out;
+}
+.confirmBtn{
+  color: white;
+  background-color: #A8B64F;
+  border: 1px solid #A8B64F;
+}
+.confirmBtn:hover {
+  background-color: #899441;
+  border: 1px solid #899441;
+}
+.cancelBtn {
+  color: #DC3E22;
+  background-color: white;
+  border: 1px solid #DC3E22;
+}
+.cancelBtn:hover {
+  color: white;
+  background-color: #DC3E22;
+}

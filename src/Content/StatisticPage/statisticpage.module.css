@@ -1,0 +1,40 @@
+.statsPage {
+  padding: 80px;
+}
+.statsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.statsHeader > div {
+  flex: none;
+  width: 370px;
+  height: 55px;
+  background-color: #F4F4F4;
+}
+.statsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.leftInfoDiv {
+  display: flex;
+  flex-direction: column;
+  width: 296px;
+  margin-right: 32px;
+}
+.chartDiv {
+  flex: 1 1 70%;
+}
+.FPB {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.FPB:not(:last-child) {
+  margin-right: 32px;
+}
+.FPB div {
+  flex: 1 1 100%;
+}

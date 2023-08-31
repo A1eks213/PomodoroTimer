@@ -1,0 +1,43 @@
+.selectWeekDropdownDiv {
+  width: 370px;
+}
+
+.selectWeekDropdownItem {
+  list-style-type: none;
+  border: none;
+  background-color: #F4F4F4;
+}
+
+.options,
+.select {
+  position: relative;
+  padding: 19px 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  background: var(--white);
+}
+
+.options {
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.select {
+  border-bottom: 1px solid #DEDEDE;
+}
+
+
+.select svg {
+  position: absolute;
+  top: 26px;
+  right: 17px;
+  transition: transform .3s ease-in-out;
+}
+
+.open svg {
+  transform: rotate(180deg);
+  transition: transform .3s ease-in-out;
+}

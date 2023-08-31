@@ -1,0 +1,28 @@
+.menu {
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
+.menuButton {
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 31px;
+    background-color: transparent;
+    border: none;
+    transform: rotate(90deg);
+}
+.menuButton:active, .menuButton:hover {
+  background-color: rgba(51, 51, 51, 0.1);
+}
+.dropdownDiv {
+  top: 0;
+  right: 0;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+

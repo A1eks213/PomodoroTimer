@@ -1,0 +1,33 @@
+.header {
+    height: 40px;
+    padding: 15px 82px;
+    box-shadow: 0px 10px 63px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.statisticLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    padding-left: 25px;
+    color: #DC3E22;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.statisticLink:hover {
+    color: #B7280F;
+}
+.statisticLink > svg > path {
+    transition: all .3s ease-in-out;
+}
+.statisticLink:hover > svg > path {
+    fill: #B7280F;
+}

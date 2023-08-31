@@ -1,0 +1,46 @@
+.tomatoesBlock {
+  margin-bottom: 32px;
+  height: 179px;
+  max-width: 296px;
+  background-color: #F4F4F4;
+}
+
+.zeroTomatoes {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../img/tomato.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.numberOfTomatoes{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.imgAndNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 100%;
+  padding: 23px;
+}
+.imgAndNumber img {
+  margin-right: 17px;
+}
+.numberSpan {
+  color: #999;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+.redBlock {
+  width: 100%;
+  padding: 9px 0;
+  color: white;
+  text-align: center;
+  background-color: #DC3E22;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}

@@ -1,0 +1,32 @@
+.breaksBlock {
+    position: relative;
+    max-width: 355px;
+    padding: 25px;
+    background-color: #F4F4F4;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .breaksTitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .breaksValue {
+    color: #333;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+  }
+  .breaksBlock svg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .activeBreaks {
+    background-color: #C5F1FF;
+  }
+  .activeBreaks > svg > path {
+    stroke: #7FC2D7;
+  }

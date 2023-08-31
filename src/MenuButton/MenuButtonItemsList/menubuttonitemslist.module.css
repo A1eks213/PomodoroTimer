@@ -1,0 +1,26 @@
+.menuItemsList {
+  padding: 0;
+}
+.menuItem {
+  padding: 12px 10px;
+  padding-left: 10px;
+  width: calc(100% - 20px);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  cursor: pointer;
+  color: #999;
+  transition: background .3s ease-in-out;
+}
+.menuItem > svg {
+  margin-right: 10px;
+}
+.menuItem:hover {
+  background: #F4F4F4;
+}
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--grayEC);
+}
+

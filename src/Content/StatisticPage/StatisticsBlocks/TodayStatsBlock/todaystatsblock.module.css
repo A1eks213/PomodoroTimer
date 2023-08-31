@@ -1,0 +1,25 @@
+.todayStatsBlock {
+  margin-bottom: 32px;
+  max-width: 246px;
+  height: 210px;
+  padding: 25px;
+  background-color: #F4F4F4;
+}
+.weekday {
+  margin: 0;
+  color: #333;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+  
+.workTimeDiv {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.workTimeSpan {
+  font-weight: 600;
+  color: #DC3E22;
+}
